@@ -30,6 +30,16 @@
 ### 自动部署（GitHub Actions）
 项目配置了GitHub Actions工作流，每次推送到main分支时会自动部署到GitHub Pages。
 
+如果自动部署失败，可能需要手动配置GitHub Pages：
+
+1. 打开浏览器并访问: https://github.com/478690/my-blog-project
+2. 点击仓库页面上的 'Settings' 选项卡
+3. 在左侧边栏中找到并点击 'Pages' 选项
+4. 在 'Source' 部分，选择 'Deploy from a branch'
+5. 选择 'main' 分支，并选择 '/(root)' 作为文件夹
+6. 点击 'Save' 按钮保存设置
+7. 等待几分钟让GitHub Pages完成部署
+
 ### 手动部署
 1. 运行部署脚本：
    ```bash
